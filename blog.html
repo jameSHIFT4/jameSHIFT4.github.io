@@ -13,7 +13,14 @@
 
   <body onload="loadBlogPosts()">
     <header>
-      <h1>Blog</h1>
+      <h1>
+        Blog for
+        <span class="site-title">
+          jame
+          <span class="site-title-suffix-1">SHIFT4</span>
+          <span class="site-title-suffix-2">$</span>
+        </span>
+      </h1>
       <p>My (test) blog posts! :)</p>
       <nav aria-label="primary-navigation">
         <ul>
@@ -25,9 +32,25 @@
 
     <hr />
 
+    <div class="blog-nav">
+      <button onclick="goToPreviousPage()">&lt;</button>
+      <span id="pageIndicator">Page <span id="currentPageIndicator">1</span></span>
+      <button onclick="goToNextPage()">&gt;</button>
+    </div>
+
+    <hr />
+
     <main>
       <!-- Blog posts will be loaded here -->
     </main>
+
+    <hr />
+
+    <div class="blog-nav">
+      <button onclick="goToPreviousPage()">&lt;</button>
+      <span id="pageIndicator">Page <span id="currentPageIndicator">1</span></span>
+      <button onclick="goToNextPage()">&gt;</button>
+    </div>
 
     <hr />
 
