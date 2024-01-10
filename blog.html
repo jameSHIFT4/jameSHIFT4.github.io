@@ -4,15 +4,17 @@
     <meta charset="UTF-8" />
     <meta name="author" content="James Hift IV" />
     <meta name="description" content="jameSHIFT4's Website" />
-    <title>jameSHIFT4</title>
+    <title>Blog - jameSHIFT4</title>
     <link rel="shortcut icon" href="./favicon.ico?" type="image/x-icon" />
     <link rel="stylesheet" href="css/style.css" />
+    <!-- Javascript to load blog posts -->
+    <script src="js/blog-loader.js" defer></script>
   </head>
 
-  <body>
+  <body onload="loadBlogPosts()">
     <header>
-      <h1>jameSHIFT4</h1>
-      <p>This is my personal site to show my coding progress.</p>
+      <h1>Blog</h1>
+      <p>My (test) blog posts! :)</p>
       <nav>
         <ul>
           <li><a href="./">Home</a></li>
@@ -24,12 +26,7 @@
     <hr />
 
     <main>
-      <p>Currently learning:</p>
-      <ul>
-        <li>HTML - Good understanding so far</li>
-        <li>CSS - Still new to (obviously)</li>
-        <li>Javascript - No experience at all :(</li>
-      </ul>
+      <!-- Blog posts will be loaded here -->
     </main>
 
     <hr />
