@@ -1,8 +1,22 @@
 body {
+  background-color: #333;
+  color: whitesmoke;
   min-height: 100vh;
   max-width: 800px;
   margin: 0 auto;
   padding: 1rem;
-  border-left: 1px solid #333;
-  border-right: 1px solid #333;
+  border-left: 1px solid whitesmoke;
+  border-right: 1px solid whitesmoke;
+}
+
+a {
+  color: aliceblue;
+}
+
+a:visited {
+  color: lightgrey;
+}
+
+a:hover {
+  color: #eee;
 }
