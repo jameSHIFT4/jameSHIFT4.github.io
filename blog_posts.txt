@@ -70,8 +70,8 @@ line test :o
 ANOTHER line test B^)
 (Insert blog post #12 text here)
 --
-Blog Post #13 (Actual Blog Post)
-January 11, 2024
+Blog Post #13 (Actual Blog Post #1)
+January 11, 2024 - 6:46pm
 This site is so ugly but it's so fun to mess around with.
 Coding got my falling in love again B^)
 
