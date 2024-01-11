@@ -66,7 +66,6 @@ function loadBlogPosts() {
         mainElement.appendChild(article);
       });
       updatePageIndicator();
-      updateAllIndicators(currentPage);
     })
     .catch((error) => {
       const mainElement = document.querySelector("main");
