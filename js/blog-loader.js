@@ -60,7 +60,7 @@ function loadBlogPosts() {
 
         const content = document.createElement("p");
         content.className = "blog-post-content";
-        content.innerText = lines.slice(2).join(" ");
+        content.innerText = lines.slice(2).join("\n");
         article.appendChild(content);
 
         mainElement.appendChild(article);
