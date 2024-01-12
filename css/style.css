@@ -10,11 +10,12 @@ body {
   font-family: "Roboto", sans-serif;
   /* min-height: 100vh; */
   max-width: 800px;
-  margin: 0 auto 2rem;
-  padding: 1px 1rem 0.25rem 1rem;
+  margin: 0 auto 3rem;
+  padding: 1px 1rem 0.5rem 1rem;
   border-left: 1px solid whitesmoke;
   border-right: 1px solid whitesmoke;
   border-bottom: 1px solid whitesmoke;
+  border-radius: 0 0 10px 10px;
 }
 
 a {
