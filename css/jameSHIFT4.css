@@ -1,32 +1,32 @@
 /* CSS for jameSHIFT4 to jame$ transition */
-.jame {
-  display: inline-block;
-  position: relative;
-}
 
-.jame-shift4,
-.jame-dollar {
+.dollar {
   position: absolute;
-  transition: opacity 0.7s ease;
+  width: 0;
+  height: 0;
 }
 
-.jame-shift4 {
-  opacity: 1;
+.shift4,
+.dollar {
+  transition: opacity 0.75s ease;
 }
 
-.jame-dollar {
+.dollar,
+.jame:hover .shift4 {
   opacity: 0;
 }
 
-.jame:hover .jame-shift4 {
-  opacity: 0;
-}
-
-.jame:hover .jame-dollar {
+.shift4,
+.jame:hover .dollar {
   opacity: 1;
 }
 
-.jame-ignore {
-  color: red;
-  visibility: hidden;
+/* for fun :) */
+.jame:active .dollar {
+  color: gold;
 }
+
+/* 
+HTML Code:
+<span class="jame">jame<span class="dollar">$</span><span class="shift4">SHIFT4</span></span>
+*/
