@@ -1,5 +1,4 @@
 /* CSS for jameSHIFT4 to jame$ transition */
-
 .dollar {
   position: absolute;
   width: 0;
@@ -21,12 +20,17 @@
   opacity: 1;
 }
 
-/* for fun :) */
+/* gold for fun :) */
 .jame:active .dollar {
   color: gold;
 }
 
+.jame a {
+  color: inherit;
+  text-decoration: none;
+}
+
 /* 
 HTML Code:
-<span class="jame">jame<span class="dollar">$</span><span class="shift4">SHIFT4</span></span>
+&copy; <span class="jame"><a href="https://github.com/jameSHIFT4">jame<span class="dollar">$</span></a><span class="shift4">SHIFT4</span></span>
 */
