@@ -1,11 +1,10 @@
 html {
   font-size: 24px;
-  /* height: 100%; */
 }
 
 body {
   min-height: 100vh;
-  max-width: 750px;
+  max-width: 30rem;
   margin: 0 auto;
   padding: 0 1rem;
   border-left: 1px solid #000;
