@@ -19,7 +19,7 @@ a {
 }
 
 a:hover {
-  color: hsla(0, 0%, 20%, 0.8);
+  color: hsla(0, 0%, 30%, 0.8);
 }
 
 h1 {
@@ -31,55 +31,6 @@ h1 {
 
 footer p {
   font-weight: bold;
-}
-
-/* jameSHIFT4 transition code */
-
-/************
-Regular HTML:
-<span class="jame">jame<span class="shift4">SHIFT4<span class="dollar">$</span></span></span>
-
-Link HTML:
-<span class="jame"><a href="https://jameSHIFT4.com/">jame<span class="shift4">SHIFT4<span class="dollar">$</span></span></a></span>
-************/
-
-.jame {
-  --jameshift4-color: #333;
-  position: relative;
-}
-
-.jame a {
-  color: var(--jameshift4-color);
-  text-decoration: none;
-}
-
-.shift4 {
-  position: relative;
-  transition: color 0.5s ease;
-}
-
-.dollar {
-  color: var(--jameshift4-color) !important;
-  position: absolute;
-  opacity: 0;
-  width: 0;
-  height: 0;
-  top: 0;
-  left: 0;
-  user-select: none;
-  transition: color 0s, opacity 0.5s ease;
-}
-
-.jame:hover .shift4 {
-  color: rgba(0, 0, 0, 0);
-}
-
-.jame:hover .dollar {
-  opacity: 1;
-}
-
-.jame:active .dollar {
-  color: #d4af37 !important;
 }
 
 /* TEST: Fun exclusive-to-this-site code */
@@ -99,7 +50,7 @@ Link HTML:
   transition: all 3s ease;
 }
 
-.jame:active .jameshift4-emojis {
+h1 .jame:active .jameshift4-emojis {
   top: 0;
   opacity: 0.69;
 }
