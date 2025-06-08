@@ -41,7 +41,7 @@ footer p {
 
 /* TEST: Fun exclusive-to-this-site code */
 
-.jameshift4-emojis {
+.header-emojis {
   position: absolute;
   opacity: 0;
   width: auto;
@@ -56,7 +56,7 @@ footer p {
   transition: all 3s ease;
 }
 
-h1 .jame:active .jameshift4-emojis {
+h1 .jame:active .header-emojis {
   top: 0;
   opacity: 0.69;
 }
