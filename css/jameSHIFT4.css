@@ -1,14 +1,11 @@
 /* jameSHIFT4 transition code */
 
 /************
-Regular HTML:
-<span class="jame">jame<span class="shift4">SHIFT4<span class="dollar">$</span></span></span>
+Normal HTML:
+<span class="jame">jame<span class="shift4"><span class="shift4-s">S</span>HIFT4<span class="dollar">$</span></span></span>
 
 Link HTML:
-<a class="jame" href="https://jameSHIFT4.com/">jame<span class="shift4">SHIFT4<span class="dollar">$</span></span></a>
-
-Header HTML ("HIFT4" stays faintly/uses .shift4-s):
-<span class="jame">jame<span class="shift4"><span class="shift4-s">S</span>HIFT4<span class="dollar">$</span></span></span>
+<a class="jame" href="/">jame<span class="shift4"><span class="shift4-s">S</span>HIFT4<span class="dollar">$</span></span></a>
 ************/
 
 .jame {
